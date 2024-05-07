@@ -1,0 +1,26 @@
+.profile-img {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 16px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  margin-right: 100px;
+}
+.name {
+  font-size: 24px;
+}
+@media (max-width: 600px) {
+  .profile-img {
+    height: 80px;
+    width: 80px;
+  }
+  .name {
+    font-size: 14px;
+  }
+}

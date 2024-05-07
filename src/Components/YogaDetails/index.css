@@ -1,0 +1,41 @@
+.sub-text {
+  font-weight: bold;
+}
+.yoga-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  height: 850px;
+  width: 900px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  padding: 20px;
+  border-radius: 8px;
+}
+.yoga-img {
+  height: 300px;
+  width: 360px;
+}
+.y-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  width: 100%;
+}
+.details-name-el {
+  text-decoration: underline;
+}
+@media (max-width: 580px) {
+  .yoga-details-container {
+    width: 400px;
+    height: 1200px;
+  }
+  .y-container {
+    height: 100vh;
+  }
+}

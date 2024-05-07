@@ -1,0 +1,94 @@
+.workout-container {
+  background-image: url('https://images.pexels.com/photos/868483/pexels-photo-868483.jpeg?cs=srgb&dl=active-aerobics-balance-868483.jpg&fm=jpg');
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 0px;
+}
+.Gym-container {
+  background-image: url('https://s1.1zoom.me/big0/645/Fitness_Men_Bodybuilding_Workout_Hands_Belly_586682_1280x853.jpg');
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+.text-container {
+  background-image: linear-gradient(
+    to right,
+    #0066ff,
+    #0066ff,
+    #0066ff,
+    #0066ff,
+    transparent
+  );
+  color: white;
+  height: 300px;
+  width: 260px;
+  border-radius: 12px;
+  padding: 8px;
+}
+.yoga-container {
+  background-image: url('https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+.price-time {
+  display: flex;
+  align-items: center;
+}
+.img {
+  margin-right: 4px;
+}
+.swim-container {
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.UawG7b0A5SXEo8_8f8EzYQHaE8&pid=Api&P=0&h=180');
+  height: 300px;
+  width: 600px;
+  background-size: cover;
+  border-radius: 8px;
+  border-radius: 12px;
+  margin-left: 12px;
+}
+.main-container {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .Gym-container {
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+  }
+  .text-container {
+    width: 150px;
+  }
+  .workout-container {
+    height: 250px;
+    width: 300px;
+    color: red;
+  }
+  .yoga-container {
+    height: 250px;
+    width: 300px;
+  }
+  .swim-container {
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+  }
+  .text-container {
+    height: 250px;
+    width: 200px;
+  }
+}
+.cc-container {
+  height: 120vh;
+}

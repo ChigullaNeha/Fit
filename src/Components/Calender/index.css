@@ -1,0 +1,51 @@
+.horizontal-calendar {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.month {
+  flex: 0 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  min-width: 500px;
+}
+
+.month-name {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.days-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+}
+
+.day:hover {
+  background-color: #f0f0f0;
+  color: black;
+  border-radius: 20px;
+  height: 46px;
+  width: 46px;
+}
+.clicked {
+  background-color: black;
+  color: white;
+  border-radius: 24px;
+  width: 46px;
+  height: 46px;
+}

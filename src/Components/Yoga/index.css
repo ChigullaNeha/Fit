@@ -1,0 +1,40 @@
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+.li-el {
+  height: 340px;
+  width: 500px;
+  border-style: solid;
+  border-radius: 8px;
+  margin: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  border: none;
+}
+.img-el {
+  height: 160px;
+  width: 160px;
+}
+.name-el {
+  font-size: 20px;
+}
+.yoga-el {
+  text-align: center;
+}
+@media {
+  .li-el {
+    height: 300px;
+    width: 300px;
+    padding: 4px;
+    margin-right: 28px;
+  }
+}
