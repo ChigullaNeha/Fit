@@ -92,3 +92,15 @@
 .cc-container {
   height: 120vh;
 }
+@media (min-width: 600px) and (max-width: 1200px) {
+  .workout-container {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .Gym-container {
+    margin-bottom: 10px;
+  }
+  .yoga-container {
+    margin-bottom: 10px;
+  }
+}
